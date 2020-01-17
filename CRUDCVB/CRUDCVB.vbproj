@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CC64CF4-AD2B-45B4-A9C5-BB10FAB9B201}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CRUDCVB.My.MyApplication</StartupObject>
+    <RootNamespace>CRUDCVB</RootNamespace>
+    <AssemblyName>CRUDCVB</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CRUDCVB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CRUDCVB.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Acceso.vb" />
+    <Compile Include="Clases\clsIni.vb" />
+    <Compile Include="Clases\clsPnlFrm.vb" />
+    <Compile Include="Clases\Contabilidad\clsExpPre.vb" />
+    <Compile Include="Clases\Contabilidad\clsExpPreAplDet.vb" />
+    <Compile Include="Clases\Contabilidad\clsExpPreApli.vb" />
+    <Compile Include="FormContabilidad\Presupuesto\frmPreExp.designer.vb">
+      <DependentUpon>frmPreExp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormContabilidad\Presupuesto\frmPreExp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.designer.vb">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Contabilidad\modExpPre.vb" />
+    <Compile Include="Modulos\Contabilidad\modQryPresupuesto.vb" />
+    <Compile Include="Modulos\mod4D.vb" />
+    <Compile Include="Modulos\modImgs.vb" />
+    <Compile Include="Modulos\modMssql.vb" />
+    <Compile Include="Modulos\modSalir.vb" />
+    <Compile Include="Modulos\Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SubMenus\Contabilidad\frmCont1_9_1.designer.vb">
+      <DependentUpon>frmCont1_9_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenus\Contabilidad\frmCont1_9_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenus\frmInvt1.designer.vb">
+      <DependentUpon>frmInvt1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenus\frmInvt1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenus\frmProv1.designer.vb">
+      <DependentUpon>frmProv1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenus\frmProv1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenus\frmBanc1.designer.vb">
+      <DependentUpon>frmBanc1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenus\frmBanc1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenus\frmClie1.designer.vb">
+      <DependentUpon>frmClie1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenus\frmClie1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenus\frmActF1.designer.vb">
+      <DependentUpon>frmActF1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenus\frmActF1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenus\frmCont1.designer.vb">
+      <DependentUpon>frmCont1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenus\frmCont1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenus\frmAdmi1.designer.vb">
+      <DependentUpon>frmAdmi1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenus\frmAdmi1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormContabilidad\Presupuesto\frmPreExp.resx">
+      <DependentUpon>frmPreExp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenus\Contabilidad\frmCont1_9_1.resx">
+      <DependentUpon>frmCont1_9_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenus\frmInvt1.resx">
+      <DependentUpon>frmInvt1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenus\frmProv1.resx">
+      <DependentUpon>frmProv1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenus\frmBanc1.resx">
+      <DependentUpon>frmBanc1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenus\frmClie1.resx">
+      <DependentUpon>frmClie1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenus\frmActF1.resx">
+      <DependentUpon>frmActF1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenus\frmCont1.resx">
+      <DependentUpon>frmCont1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenus\frmAdmi1.resx">
+      <DependentUpon>frmAdmi1.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonBanc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonClie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cli3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dbSync.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siguiente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cli2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anterior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preDep.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101-invoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo-b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonActi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonAdmi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonAlma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonCont.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonProv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\con8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\opciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonOpci.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

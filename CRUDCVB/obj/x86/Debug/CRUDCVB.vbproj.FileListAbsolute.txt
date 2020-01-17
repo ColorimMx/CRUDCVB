@@ -1,0 +1,22 @@
+C:\Users\PabloAmadorSolis\AppData\Local\Temporary Projects\CRUDCVB\obj\x86\Debug\CRUDCVB.frmMenu.resources
+C:\Users\PabloAmadorSolis\AppData\Local\Temporary Projects\CRUDCVB\obj\x86\Debug\CRUDCVB.Resources.resources
+C:\Users\PabloAmadorSolis\AppData\Local\Temporary Projects\CRUDCVB\obj\x86\Debug\CRUDCVB.vbproj.GenerateResource.Cache
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\bin\Debug\CRUDCVB.exe
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\bin\Debug\CRUDCVB.pdb
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\bin\Debug\CRUDCVB.xml
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.frmMenu.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.Resources.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.vbproj.GenerateResource.Cache
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.exe
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.xml
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.pdb
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.Login.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.frmInvt1.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.frmProv1.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.frmBanc1.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.frmClie1.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.frmActF1.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.frmCont1.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.frmAdmi1.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.frmCont1_9_1.resources
+C:\Users\PabloAmadorSolis\documents\visual studio 2010\Projects\CRUDCVB\CRUDCVB\obj\x86\Debug\CRUDCVB.frmPreExp.resources
